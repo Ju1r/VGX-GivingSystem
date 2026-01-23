@@ -6,6 +6,12 @@ A premium, modern, and highly-optimized Admin Management & Giveaway System for Q
 ![Framework](https://img.shields.io/badge/framework-QBCore-green.svg)
 ![Language](https://img.shields.io/badge/support-English%20%2F%20Arabic-orange.svg)
 
+
+<img width="1253" height="825" alt="Screenshot 2026-01-22 232244" src="https://github.com/user-attachments/assets/ed6abbec-e03c-4bd0-ac59-7b4fb7147720" />
+<img width="1240" height="818" alt="Screenshot 2026-01-22 232034" src="https://github.com/user-attachments/assets/883d9de9-d614-4b9f-b9f8-928094051257" />
+<img width="1249" height="832" alt="Screenshot 2026-01-22 232017" src="https://github.com/user-attachments/assets/d1b0bada-98f1-468e-9b29-7fb3a594784b" />
+<img width="1287" height="829" alt="Screenshot 2026-01-22 231946" src="https://github.com/user-attachments/assets/1777d5c8-3ed0-4450-b053-b9606f3ffee6" />
+
 ## ✨ Features
 
 - 💎 **Modern Bento-Style UI**: A clean, responsive dashboard using CSS Grid and Flexbox.
