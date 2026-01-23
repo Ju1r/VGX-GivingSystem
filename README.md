@@ -1,6 +1,6 @@
 # VGX Admin System 🛡️
 
-A premium, modern, and highly-optimized Admin Management & Giveaway System for QBCore frameworks. Designed with a focus on UX/UI excellence, featuring full (Arabic) support and a sleek, dynamic interface.
+A premium, modern, and highly-optimized Giving System for QBCore frameworks. Designed with a focus on UX/UI excellence, featuring full (Arabic) support and a sleek, dynamic interface.
 
 ![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)
 ![Framework](https://img.shields.io/badge/framework-QBCore-green.svg)
