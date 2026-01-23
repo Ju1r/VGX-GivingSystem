@@ -20,6 +20,7 @@ Config.System = "citizenid"
 Config.PermissionManagers = {'god'}
 
 -- [ Navigation & Interaction | التنقل والتفاعل ]
+-- Command "vgxmenu"
 Config.EnableKeybind = true -- Enable/Disable opening panel with keybind | تفعيل/تعطيل فتح اللوحة عن طريق زر
 Config.Keybind = 'F6' -- Default key to toggle the Admin System | الزر الافتراضي لفتح نظام الإدارة
 
@@ -55,3 +56,4 @@ Config.webhookLogs = {
   ["SETPERMS"]    = "", -- Webhook for Assigning/Editing Admin Permissions | سجل تعيين وتعديل صلاحيات الإدارة
   ["DELETEADMIN"] = "", -- Webhook for Removing Admin Permissions | سجل حذف صلاحيات الإدارة
 }
+
