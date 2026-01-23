@@ -14,7 +14,7 @@ A premium, modern, and highly-optimized Admin Management & Giveaway System for Q
 
 ## ✨ Features
 
-- 💎 **Modern Bento-Style UI**: A clean, responsive dashboard using CSS Grid and Flexbox.
+- 💎 **Modern  UI**: A clean, responsive dashboard.
 - 🌍 **Full RTL Support**: Native Arabic translation and layout mirroring for an intuitive experience.
 - 🎭 **Dynamic Backgrounds**: Staggered bento icons with smooth floating hover animations.
 - 🔊 **Auditory Feedback**: Integrated sound effects for notifications and UI interactions.
