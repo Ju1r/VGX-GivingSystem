@@ -27,44 +27,11 @@ A premium, modern, and highly-optimized Admin Management & Giveaway System for Q
 3. **Configuration**: Edit `config.lua` to match your core name, inventory, and preferred language.
 4. **Start Resource**: Add `ensure VGX-Adminsystem` to your `server.cfg`.
 
-## ⚙️ Configuration
-
-The `config.lua` file allows for extensive customization:
-
-```lua
--- Change Locale (en / ar)
-Config.Locale = 'en'
-
--- Identify admins by FiveM license or QBCore citizenid
-Config.System = "license" 
-
--- Customize UI Accent Color
-Config.UiColor = "#4cb39cff"
-
--- Restrict sensitive assets
-Config.UseItemBlacklist = true
-Config.BlacklistItems = {'water_bottle', 'bandage'}
-```
-
 ## ⌨️ Controls
 
 - **Default Key**: `F6` (Changeable in `config.lua`)
 - **Navigation**: Click bento cards to open tabs; use `Escape` to go back to the dashboard or close the UI.
 
-## 📁 Database Schema
-
-Ensure you have the following table in your database:
-
-```sql
-CREATE TABLE IF NOT EXISTS `vgx_admin_permissions` (
-  `playername` varchar(50) DEFAULT NULL,
-  `citizenid` varchar(50) NOT NULL,
-  `license` varchar(50) DEFAULT NULL,
-  `permissions` text DEFAULT NULL,
-  `granted_by` varchar(50) DEFAULT NULL,
-  PRIMARY KEY (`citizenid`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-```
 
 ---
 
