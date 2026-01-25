@@ -3,7 +3,8 @@ game 'gta5'
 
 author 'VGX DEV'
 description 'Made By Just.A, https://discord.gg/hnucPvSRHa'
-version '1.0.0'
+version '1.1.0'
+lua54 'yes'
 
 ui_page 'html/index.html'
 
@@ -17,8 +18,7 @@ client_scripts {
 
 server_scripts {
   '@oxmysql/lib/MySQL.lua',
-  'server/db.lua',
-  'server/main.lua'
+  'server/*.lua',
 }
 
 files {
@@ -28,4 +28,3 @@ files {
   'html/sounds/*.mp3'
 }
 
-lua54 'yes'
