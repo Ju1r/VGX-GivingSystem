@@ -6,7 +6,7 @@ Config.UiColor = "#4cb39cff" -- Accent color for the UI (RGB/HEX) | لون ال�
 
 -- [ Framework & Inventory Configuration | إعدادات الفريمورك والحقيبة ]
 Config.Core = "qb-core" -- Your core resource name (e.g., qb-core) | اسم ملف الكور الخاص بك
-Config.inventory = "qb-inventory" -- Your inventory resource name | اسم ملف الحقيبة الخاص بك
+Config.inventory = "nui://qb-inventory/html/images/" -- Your inventory resource name | اسم ملف الحقيبة الخاص بك
 
 -- [ Identification System | نظام التعرف ]
 -- 'license'   : Uses FiveM license to identify and save admin permissions. | التعرف عن طريق رخصة فايف إم
@@ -20,7 +20,6 @@ Config.System = "citizenid"
 Config.PermissionManagers = {'god'}
 
 -- [ Navigation & Interaction | التنقل والتفاعل ]
--- Command "vgxmenu"
 Config.EnableKeybind = true -- Enable/Disable opening panel with keybind | تفعيل/تعطيل فتح اللوحة عن طريق زر
 Config.Keybind = 'F6' -- Default key to toggle the Admin System | الزر الافتراضي لفتح نظام الإدارة
 
@@ -56,4 +55,3 @@ Config.webhookLogs = {
   ["SETPERMS"]    = "", -- Webhook for Assigning/Editing Admin Permissions | سجل تعيين وتعديل صلاحيات الإدارة
   ["DELETEADMIN"] = "", -- Webhook for Removing Admin Permissions | سجل حذف صلاحيات الإدارة
 }
-
