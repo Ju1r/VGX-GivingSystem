@@ -6,7 +6,11 @@ Config.UiColor = "#4cb39cff" -- Accent color for the UI (RGB/HEX) | لون ال�
 
 -- [ Framework & Inventory Configuration | إعدادات الفريمورك والحقيبة ]
 Config.Core = "qb-core" -- Your core resource name (e.g., qb-core) | اسم ملف الكور الخاص بك
-Config.inventory = "nui://qb-inventory/html/images/" -- Your inventory resource name | اسم ملف الحقيبة الخاص بك
+
+-- English: Base path used to load item icons from the inventory resource
+-- المسار الأساسي المستخدم لعرض صور الأغراض من سكربت الإنفنتوري
+Config.inventory = "nui://qb-inventory/html/images/"
+
 
 -- [ Identification System | نظام التعرف ]
 -- 'license'   : Uses FiveM license to identify and save admin permissions. | التعرف عن طريق رخصة فايف إم
@@ -55,3 +59,4 @@ Config.webhookLogs = {
   ["SETPERMS"]    = "", -- Webhook for Assigning/Editing Admin Permissions | سجل تعيين وتعديل صلاحيات الإدارة
   ["DELETEADMIN"] = "", -- Webhook for Removing Admin Permissions | سجل حذف صلاحيات الإدارة
 }
+
