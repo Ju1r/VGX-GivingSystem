@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'VGX DEV'
 description 'Made By Just.A, https://discord.gg/hnucPvSRHa'
-version '1.1.0'
+version '1.1.1'
 lua54 'yes'
 
 ui_page 'html/index.html'
@@ -27,4 +27,5 @@ files {
   'html/app.js',
   'html/sounds/*.mp3'
 }
+
 
