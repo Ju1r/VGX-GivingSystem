@@ -48,6 +48,9 @@ Config.BlacklistVehicles = {
     'sultan'
 }
 
+Config.defaultgarage = '' -- Default garage name | اسم الكراج الافتراضي
+Config.state = 0 -- 0 = Out of garage, 1 = In garage | 0 = خارج الكراج, 1 = في الكراج
+
 -- [ Audit & Logging | السجلات والتدقيق ]
 -- Set to true and provide Discord Webhook URLs below to log all administrative actions.
 -- قم بتفعيلها وضع روابط ويب هوك ديسكورد لتسجيل جميع الإجراءات
@@ -59,4 +62,5 @@ Config.webhookLogs = {
   ["SETPERMS"]    = "", -- Webhook for Assigning/Editing Admin Permissions | سجل تعيين وتعديل صلاحيات الإدارة
   ["DELETEADMIN"] = "", -- Webhook for Removing Admin Permissions | سجل حذف صلاحيات الإدارة
 }
+
 
